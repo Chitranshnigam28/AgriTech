@@ -1,0 +1,833 @@
+{
+    "crops": [
+        {
+            "crop_id": 1,
+            "name": "Wheat",
+            "ideal_conditions": {
+                "temperature_range": "15-25°C",
+                "humidity": "50-70%",
+                "soil_type": "Loamy",
+                "rainfall": "600-1200mm"
+            },
+            "climate_location": {
+                "states": [
+                    "Punjab",
+                    "Haryana",
+                    "Uttar Pradesh",
+                    "Madhya Pradesh"
+                ],
+                "suitable_climate": "Temperate"
+            },
+            "growth_time": "120 days",
+            "yield": {
+                "min": 2000,
+                "max": 5000,
+                "unit": "kg/ha"
+            },
+            "market_price": {
+                "min_price": 11000,
+                "max_price": 15000,
+                "currency": "INR",
+                "historical_prices": [
+                    {
+                        "year": 2021,
+                        "price": 10500
+                    },
+                    {
+                        "year": 2022,
+                        "price": 11500
+                    },
+                    {
+                        "year": 2023,
+                        "price": 13000
+                    }
+                ]
+            },
+            "soil_quality": {
+                "pH": "6.0-7.5",
+                "nutrient_content": {
+                    "nitrogen": "moderate",
+                    "phosphorus": "low",
+                    "potassium": "high"
+                }
+            },
+            "soil_impact": {
+                "nitrogen_depletion": "high",
+                "water_usage": "moderate",
+                "recommended_next_crop": [
+                    "Pulses",
+                    "Peas"
+                ],
+                "crop_rotation_benefits": {
+                    "nitrogen_fixation": "Pulses improve soil nitrogen levels",
+                    "weed_control": "Helps reduce weed growth"
+                }
+            }
+        },
+        {
+            "crop_id": 2,
+            "name": "Rice",
+            "ideal_conditions": {
+                "temperature_range": "20-30°C",
+                "humidity": "70-90%",
+                "soil_type": "Clay",
+                "rainfall": "1200-2000mm"
+            },
+            "climate_location": {
+                "states": [
+                    "West Bengal",
+                    "Bihar",
+                    "Odisha",
+                    "Assam"
+                ],
+                "suitable_climate": "Tropical and Subtropical"
+            },
+            "growth_time": "90-150 days",
+            "yield": {
+                "min": 4000,
+                "max": 8000,
+                "unit": "kg/ha"
+            },
+            "market_price": {
+                "min_price": 8000,
+                "max_price": 12000,
+                "currency": "INR",
+                "historical_prices": [
+                    {
+                        "year": 2021,
+                        "price": 7500
+                    },
+                    {
+                        "year": 2022,
+                        "price": 8500
+                    },
+                    {
+                        "year": 2023,
+                        "price": 10000
+                    }
+                ]
+            },
+            "soil_quality": {
+                "pH": "5.5-7.0",
+                "nutrient_content": {
+                    "nitrogen": "high",
+                    "phosphorus": "moderate",
+                    "potassium": "low"
+                }
+            },
+            "soil_impact": {
+                "nitrogen_depletion": "moderate",
+                "water_usage": "high",
+                "recommended_next_crop": [
+                    "Wheat",
+                    "Barley"
+                ],
+                "crop_rotation_benefits": {
+                    "soil_structure_improvement": "Wheat improves soil texture",
+                    "disease_control": "Reduces fungal infections from rice"
+                }
+            }
+        },
+        {
+            "crop_id": 3,
+            "name": "Maize",
+            "ideal_conditions": {
+                "temperature_range": "18-27°C",
+                "humidity": "60-80%",
+                "soil_type": "Sandy Loam",
+                "rainfall": "500-800mm"
+            },
+            "climate_location": {
+                "states": [
+                    "Karnataka",
+                    "Maharashtra",
+                    "Bihar",
+                    "Andhra Pradesh"
+                ],
+                "suitable_climate": "Tropical"
+            },
+            "growth_time": "90-120 days",
+            "yield": {
+                "min": 3000,
+                "max": 6000,
+                "unit": "kg/ha"
+            },
+            "market_price": {
+                "min_price": 9000,
+                "max_price": 13000,
+                "currency": "INR",
+                "historical_prices": [
+                    {
+                        "year": 2021,
+                        "price": 8500
+                    },
+                    {
+                        "year": 2022,
+                        "price": 9500
+                    },
+                    {
+                        "year": 2023,
+                        "price": 11000
+                    }
+                ]
+            },
+            "soil_quality": {
+                "pH": "5.8-7.0",
+                "nutrient_content": {
+                    "nitrogen": "moderate",
+                    "phosphorus": "high",
+                    "potassium": "moderate"
+                }
+            },
+            "soil_impact": {
+                "nitrogen_depletion": "low",
+                "water_usage": "moderate",
+                "recommended_next_crop": [
+                    "Soybeans",
+                    "Groundnut"
+                ],
+                "crop_rotation_benefits": {
+                    "disease_control": "Breaks pest cycles",
+                    "soil_enrichment": "Soybeans fix nitrogen into the soil"
+                }
+            }
+        },
+        {
+            "crop_id": 4,
+            "name": "Sugarcane",
+            "ideal_conditions": {
+                "temperature_range": "25-35°C",
+                "humidity": "70-90%",
+                "soil_type": "Alluvial",
+                "rainfall": "1000-1500mm"
+            },
+            "climate_location": {
+                "states": [
+                    "Uttar Pradesh",
+                    "Maharashtra",
+                    "Tamil Nadu",
+                    "Andhra Pradesh"
+                ],
+                "suitable_climate": "Tropical and Subtropical"
+            },
+            "growth_time": "10-12 months",
+            "yield": {
+                "min": 60000,
+                "max": 100000,
+                "unit": "kg/ha"
+            },
+            "market_price": {
+                "min_price": 2500,
+                "max_price": 3500,
+                "currency": "INR",
+                "historical_prices": [
+                    {
+                        "year": 2021,
+                        "price": 2400
+                    },
+                    {
+                        "year": 2022,
+                        "price": 2800
+                    },
+                    {
+                        "year": 2023,
+                        "price": 3200
+                    }
+                ]
+            },
+            "soil_quality": {
+                "pH": "6.5-7.5",
+                "nutrient_content": {
+                    "nitrogen": "moderate",
+                    "phosphorus": "low",
+                    "potassium": "moderate"
+                }
+            },
+            "soil_impact": {
+                "nitrogen_depletion": "high",
+                "water_usage": "very high",
+                "recommended_next_crop": [
+                    "Wheat",
+                    "Rice"
+                ],
+                "crop_rotation_benefits": {
+                    "weed_control": "Sugarcane controls weed growth",
+                    "soil_structure_improvement": "Restores soil structure with cereal crops"
+                }
+            }
+        },
+        {
+            "crop_id": 5,
+            "name": "Barley",
+            "ideal_conditions": {
+                "temperature_range": "12-25°C",
+                "humidity": "40-60%",
+                "soil_type": "Loamy",
+                "rainfall": "400-800mm"
+            },
+            "climate_location": {
+                "states": [
+                    "Rajasthan",
+                    "Uttar Pradesh",
+                    "Haryana",
+                    "Punjab"
+                ],
+                "suitable_climate": "Temperate"
+            },
+            "growth_time": "90 days",
+            "yield": {
+                "min": 1500,
+                "max": 4000,
+                "unit": "kg/ha"
+            },
+            "market_price": {
+                "min_price": 7500,
+                "max_price": 10500,
+                "currency": "INR",
+                "historical_prices": [
+                    {
+                        "year": 2021,
+                        "price": 7000
+                    },
+                    {
+                        "year": 2022,
+                        "price": 8000
+                    },
+                    {
+                        "year": 2023,
+                        "price": 9500
+                    }
+                ]
+            },
+            "soil_quality": {
+                "pH": "6.0-7.5",
+                "nutrient_content": {
+                    "nitrogen": "low",
+                    "phosphorus": "moderate",
+                    "potassium": "high"
+                }
+            },
+            "soil_impact": {
+                "nitrogen_depletion": "low",
+                "water_usage": "low",
+                "recommended_next_crop": [
+                    "Wheat",
+                    "Legumes"
+                ],
+                "crop_rotation_benefits": {
+                    "soil_nitrogen_replenishment": "Legumes replenish nitrogen",
+                    "water_conservation": "Barley uses less water, conserving soil moisture"
+                }
+            }
+        },
+        {
+            "crop_id": 6,
+            "name": "Cotton",
+            "ideal_conditions": {
+                "temperature_range": "21-30°C",
+                "humidity": "50-80%",
+                "soil_type": "Black Soil",
+                "rainfall": "700-1300mm"
+            },
+            "climate_location": {
+                "states": [
+                    "Gujarat",
+                    "Maharashtra",
+                    "Telangana",
+                    "Rajasthan"
+                ],
+                "suitable_climate": "Tropical"
+            },
+            "growth_time": "150-180 days",
+            "yield": {
+                "min": 1500,
+                "max": 4000,
+                "unit": "kg/ha"
+            },
+            "market_price": {
+                "min_price": 12000,
+                "max_price": 18000,
+                "currency": "INR",
+                "historical_prices": [
+                    {
+                        "year": 2021,
+                        "price": 11000
+                    },
+                    {
+                        "year": 2022,
+                        "price": 13000
+                    },
+                    {
+                        "year": 2023,
+                        "price": 16000
+                    }
+                ]
+            },
+            "soil_quality": {
+                "pH": "6.5-8.0",
+                "nutrient_content": {
+                    "nitrogen": "low",
+                    "phosphorus": "high",
+                    "potassium": "moderate"
+                }
+            },
+            "soil_impact": {
+                "nitrogen_depletion": "high",
+                "water_usage": "moderate",
+                "recommended_next_crop": [
+                    "Pulses",
+                    "Wheat"
+                ],
+                "crop_rotation_benefits": {
+                    "nitrogen_fixation": "Pulses improve soil nitrogen content",
+                    "pest_management": "Rotating with cereals reduces cotton pests"
+                }
+            }
+        },
+        {
+            "crop_id": 7,
+            "name": "Groundnut",
+            "ideal_conditions": {
+                "temperature_range": "20-30°C",
+                "humidity": "60-80%",
+                "soil_type": "Sandy Loam",
+                "rainfall": "500-800mm"
+            },
+            "climate_location": {
+                "states": [
+                    "Gujarat",
+                    "Maharashtra",
+                    "Andhra Pradesh",
+                    "Karnataka"
+                ],
+                "suitable_climate": "Tropical"
+            },
+            "growth_time": "120-150 days",
+            "yield": {
+                "min": 1500,
+                "max": 3000,
+                "unit": "kg/ha"
+            },
+            "market_price": {
+                "min_price": 6000,
+                "max_price": 9000,
+                "currency": "INR",
+                "historical_prices": [
+                    {
+                        "year": 2021,
+                        "price": 5500
+                    },
+                    {
+                        "year": 2022,
+                        "price": 6500
+                    },
+                    {
+                        "year": 2023,
+                        "price": 8000
+                    }
+                ]
+            },
+            "soil_quality": {
+                "pH": "6.0-7.5",
+                "nutrient_content": {
+                    "nitrogen": "moderate",
+                    "phosphorus": "low",
+                    "potassium": "high"
+                }
+            },
+            "soil_impact": {
+                "nitrogen_depletion": "moderate",
+                "water_usage": "moderate",
+                "recommended_next_crop": [
+                    "Soybeans",
+                    "Millets"
+                ],
+                "crop_rotation_benefits": {
+                    "nitrogen_fixation": "Soybeans improve soil nitrogen",
+                    "weed_control": "Millets help reduce weed growth"
+                }
+            }
+        },
+        {
+            "crop_id": 8,
+            "name": "Soybeans",
+            "ideal_conditions": {
+                "temperature_range": "20-30°C",
+                "humidity": "60-80%",
+                "soil_type": "Loamy",
+                "rainfall": "600-1000mm"
+            },
+            "climate_location": {
+                "states": [
+                    "Madhya Pradesh",
+                    "Maharashtra",
+                    "Gujarat",
+                    "Karnataka"
+                ],
+                "suitable_climate": "Subtropical"
+            },
+            "growth_time": "90-120 days",
+            "yield": {
+                "min": 2000,
+                "max": 4000,
+                "unit": "kg/ha"
+            },
+            "market_price": {
+                "min_price": 8000,
+                "max_price": 12000,
+                "currency": "INR",
+                "historical_prices": [
+                    {
+                        "year": 2021,
+                        "price": 7500
+                    },
+                    {
+                        "year": 2022,
+                        "price": 8500
+                    },
+                    {
+                        "year": 2023,
+                        "price": 11000
+                    }
+                ]
+            },
+            "soil_quality": {
+                "pH": "6.0-7.0",
+                "nutrient_content": {
+                    "nitrogen": "high",
+                    "phosphorus": "moderate",
+                    "potassium": "moderate"
+                }
+            },
+            "soil_impact": {
+                "nitrogen_depletion": "low",
+                "water_usage": "moderate",
+                "recommended_next_crop": [
+                    "Wheat",
+                    "Corn"
+                ],
+                "crop_rotation_benefits": {
+                    "soil_nitrogen_replenishment": "Wheat benefits from added nitrogen",
+                    "disease_reduction": "Reduces fungal and pest problems"
+                }
+            }
+        },
+        {
+            "crop_id": 9,
+            "name": "Jowar",
+            "ideal_conditions": {
+                "temperature_range": "20-30°C",
+                "humidity": "40-60%",
+                "soil_type": "Well-drained Sandy Loam",
+                "rainfall": "400-600mm"
+            },
+            "climate_location": {
+                "states": [
+                    "Maharashtra",
+                    "Karnataka",
+                    "Rajasthan",
+                    "Gujarat"
+                ],
+                "suitable_climate": "Semi-arid"
+            },
+            "growth_time": "90-120 days",
+            "yield": {
+                "min": 2000,
+                "max": 3500,
+                "unit": "kg/ha"
+            },
+            "market_price": {
+                "min_price": 5000,
+                "max_price": 8000,
+                "currency": "INR",
+                "historical_prices": [
+                    {
+                        "year": 2021,
+                        "price": 4800
+                    },
+                    {
+                        "year": 2022,
+                        "price": 5500
+                    },
+                    {
+                        "year": 2023,
+                        "price": 7000
+                    }
+                ]
+            },
+            "soil_quality": {
+                "pH": "6.0-7.0",
+                "nutrient_content": {
+                    "nitrogen": "low",
+                    "phosphorus": "moderate",
+                    "potassium": "high"
+                }
+            },
+            "soil_impact": {
+                "nitrogen_depletion": "low",
+                "water_usage": "low",
+                "recommended_next_crop": [
+                    "Groundnut",
+                    "Pulses"
+                ],
+                "crop_rotation_benefits": {
+                    "soil_fertility": "Groundnut adds nitrogen to the soil",
+                    "water_saving": "Low water usage conserves soil moisture"
+                }
+            }
+        },
+        {
+            "crop_id": 10,
+            "name": "Chickpeas",
+            "ideal_conditions": {
+                "temperature_range": "20-30°C",
+                "humidity": "40-60%",
+                "soil_type": "Loamy to Sandy Loam",
+                "rainfall": "400-600mm"
+            },
+            "climate_location": {
+                "states": [
+                    "Madhya Pradesh",
+                    "Rajasthan",
+                    "Haryana",
+                    "Punjab"
+                ],
+                "suitable_climate": "Semi-arid to Subtropical"
+            },
+            "growth_time": "90-120 days",
+            "yield": {
+                "min": 1200,
+                "max": 3000,
+                "unit": "kg/ha"
+            },
+            "market_price": {
+                "min_price": 10000,
+                "max_price": 15000,
+                "currency": "INR",
+                "historical_prices": [
+                    {
+                        "year": 2021,
+                        "price": 9500
+                    },
+                    {
+                        "year": 2022,
+                        "price": 11000
+                    },
+                    {
+                        "year": 2023,
+                        "price": 14000
+                    }
+                ]
+            },
+            "soil_quality": {
+                "pH": "6.0-7.0",
+                "nutrient_content": {
+                    "nitrogen": "moderate",
+                    "phosphorus": "low",
+                    "potassium": "high"
+                }
+            },
+            "soil_impact": {
+                "nitrogen_depletion": "low",
+                "water_usage": "low",
+                "recommended_next_crop": [
+                    "Wheat",
+                    "Barley"
+                ],
+                "crop_rotation_benefits": {
+                    "nitrogen_fixation": "Chickpeas add nitrogen to the soil",
+                    "soil_health": "Improves soil structure and reduces erosion"
+                }
+            }
+        },
+        {
+            "crop_id": 11,
+            "name": "Sugarcane",
+            "ideal_conditions": {
+                "temperature_range": "20-30°C",
+                "humidity": "70-80%",
+                "soil_type": "Loamy to Clayey",
+                "rainfall": "1200-2000mm"
+            },
+            "climate_location": {
+                "states": ["Uttar Pradesh", "Maharashtra", "Karnataka", "Tamil Nadu"],
+                "suitable_climate": "Tropical and Subtropical"
+            },
+            "growth_time": "12-18 months",
+            "yield": {
+                "min": 50000,
+                "max": 80000,
+                "unit": "kg/ha"
+            },
+            "market_price": {
+                "min_price": 3000,
+                "max_price": 5000,
+                "currency": "INR",
+                "historical_prices": [
+                    {"year": 2021, "price": 2900},
+                    {"year": 2022, "price": 3200},
+                    {"year": 2023, "price": 4000}
+                ]
+            },
+            "soil_quality": {
+                "pH": "6.0-7.5",
+                "nutrient_content": {
+                    "nitrogen": "high",
+                    "phosphorus": "moderate",
+                    "potassium": "high"
+                }
+            },
+            "soil_impact": {
+                "nitrogen_depletion": "high",
+                "water_usage": "high",
+                "recommended_next_crop": ["Legumes", "Oilseeds"],
+                "crop_rotation_benefits": {
+                    "nitrogen_fixation": "Legumes add nitrogen to the soil",
+                    "soil_health": "Oilseeds can improve soil structure"
+                }
+            }
+        },
+        {
+            "crop_id": 12,
+            "name": "Peas",
+            "ideal_conditions": {
+                "temperature_range": "15-25°C",
+                "humidity": "50-70%",
+                "soil_type": "Loamy to Sandy Loam",
+                "rainfall": "600-800mm"
+            },
+            "climate_location": {
+                "states": ["Himachal Pradesh", "Uttar Pradesh", "Punjab", "Sikkim"],
+                "suitable_climate": "Temperate"
+            },
+            "growth_time": "60-90 days",
+            "yield": {
+                "min": 1500,
+                "max": 3000,
+                "unit": "kg/ha"
+            },
+            "market_price": {
+                "min_price": 10000,
+                "max_price": 15000,
+                "currency": "INR",
+                "historical_prices": [
+                    {"year": 2021, "price": 9500},
+                    {"year": 2022, "price": 11000},
+                    {"year": 2023, "price": 14000}
+                ]
+            },
+            "soil_quality": {
+                "pH": "6.0-7.0",
+                "nutrient_content": {
+                    "nitrogen": "high",
+                    "phosphorus": "moderate",
+                    "potassium": "low"
+                }
+            },
+            "soil_impact": {
+                "nitrogen_depletion": "low",
+                "water_usage": "low",
+                "recommended_next_crop": ["Wheat", "Barley"],
+                "crop_rotation_benefits": {
+                    "soil_nitrogen_replenishment": "Improves soil nitrogen for subsequent crops",
+                    "weed_control": "Helps reduce weed growth"
+                }
+            }
+        },
+        {
+            "crop_id": 13,
+            "name": "Tomato",
+            "ideal_conditions": {
+                "temperature_range": "20-30°C",
+                "humidity": "60-80%",
+                "soil_type": "Loamy",
+                "rainfall": "600-1000mm"
+            },
+            "climate_location": {
+                "states": ["Karnataka", "Maharashtra", "Himachal Pradesh", "Punjab"],
+                "suitable_climate": "Subtropical"
+            },
+            "growth_time": "60-90 days",
+            "yield": {
+                "min": 2500,
+                "max": 5000,
+                "unit": "kg/ha"
+            },
+            "market_price": {
+                "min_price": 15000,
+                "max_price": 25000,
+                "currency": "INR",
+                "historical_prices": [
+                    {"year": 2021, "price": 14000},
+                    {"year": 2022, "price": 18000},
+                    {"year": 2023, "price": 22000}
+                ]
+            },
+            "soil_quality": {
+                "pH": "6.0-6.8",
+                "nutrient_content": {
+                    "nitrogen": "moderate",
+                    "phosphorus": "high",
+                    "potassium": "high"
+                }
+            },
+            "soil_impact": {
+                "nitrogen_depletion": "moderate",
+                "water_usage": "moderate",
+                "recommended_next_crop": ["Legumes", "Leafy Greens"],
+                "crop_rotation_benefits": {
+                    "soil_nitrogen_replenishment": "Legumes improve soil nitrogen levels",
+                    "disease_control": "Leafy greens help reduce soil-borne diseases"
+                }
+            }
+        },
+        {
+            "crop_id": 14,
+            "name": "Potato",
+            "ideal_conditions": {
+                "temperature_range": "15-25°C",
+                "humidity": "60-70%",
+                "soil_type": "Loamy",
+                "rainfall": "600-900mm"
+            },
+            "climate_location": {
+                "states": ["Uttar Pradesh", "Punjab", "Himachal Pradesh", "Karnataka"],
+                "suitable_climate": "Temperate"
+            },
+            "growth_time": "90-120 days",
+            "yield": {
+                "min": 2000,
+                "max": 4000,
+                "unit": "kg/ha"
+            },
+            "market_price": {
+                "min_price": 12000,
+                "max_price": 18000,
+                "currency": "INR",
+                "historical_prices": [
+                    {"year": 2021, "price": 11000},
+                    {"year": 2022, "price": 13000},
+                    {"year": 2023, "price": 16000}
+                ]
+            },
+            "soil_quality": {
+                "pH": "5.5-7.0",
+                "nutrient_content": {
+                    "nitrogen": "high",
+                    "phosphorus": "high",
+                    "potassium": "moderate"
+                }
+            },
+            "soil_impact": {
+                "nitrogen_depletion": "high",
+                "water_usage": "moderate",
+                "recommended_next_crop": ["Legumes", "Cereals"],
+                "crop_rotation_benefits": {
+                    "nitrogen_replenishment": "Legumes add nitrogen to the soil",
+                    "pest_control": "Cereals help break pest cycles"
+                }
+            }
+        }
+    ]
+}
+
