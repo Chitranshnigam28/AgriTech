@@ -7,17 +7,17 @@ async function login(email, password) {
   try {
     const extingUser = await User.findOne({ email });
     console.log("async function login"+ email, password)
-    console.log(extingUser)
+    console.log("extingUser"+extingUser)
     if (!extingUser) {
       throw new Error("User not found");
     }
     const isPasswordValid = await bcrypt.compare(password, extingUser.password)
-    console.log(isPasswordValid)
+    console.log("isPasswordValid"+isPasswordValid);
     if (!isPasswordValid) {
       throw new Error("Incorrect Password");
     }
     const token = generateTokens(extingUser)
-    console.log(token)
+    console.log("token from async login "+token)
     return token
   } catch (error) {
     throw new Error("Invalid Credentials");

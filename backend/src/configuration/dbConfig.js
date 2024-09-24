@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // Connection URI for MongoDB
-const uri = "mongodb+srv://rognation4:Shivam121%40121%23@cluster0.ww2ji.mongodb.net/";
+const uri = "mongodb+srv://kisanteam28:MJGJCglcIT4LyIA0@cluster0.nzqnq.mongodb.net/kisan?retryWrites=true&w=majority&appName=Cluster0";
 
 // Connect to MongoDB without deprecated options
 mongoose.connect(uri)

@@ -3,7 +3,7 @@ const authService = require("../services/login")
 async function login(req, res) {
     try {
         const { email, password } = req.body
-        console.log(req.body)
+        console.log("req.body from login "+req.body);
         const token = await authService.login(email, password)
         res.json({ token: token })
     } catch (error) {
